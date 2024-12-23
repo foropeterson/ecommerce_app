@@ -1,0 +1,21 @@
+name: ecommerce_app
+description: A new Flutter eCommerce app
+
+publish_to: 'none' # Remove this line if you want to publish your package
+
+environment:
+  sdk: "^3.6.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.4
+  provider: 6.1.2
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
